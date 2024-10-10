@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 20px;
+  padding: 0;
+  /* background:linear-gradient(to bottom right, #c94b4b, #4b134f, yellow); */
+  background: linear-gradient(
+    #0f0c29
+    ,
+    #302b63
+    ,
+    #24243e);
+  /* font-family: "Italianno", cursive; */
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  text-shadow: 1px 5px 4px yellow;
+  font-family: "Italianno", cursive;
+  font-size: 60px;
+}
+#head2 {
+  text-align: center;
+  color: white;
+  text-shadow: 1px 5px 4px yellow;
+  font-family: "Italianno", cursive;
+  font-size: 45px;
+}
+form {
+  max-width: 600px;
+  margin: auto;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 8px 6px yellow;
+  padding: 20px;
+  border: 3px solid black;
+}
+#main-div {
+  display: flex;
+  margin-left: 75%;
+  gap: 4px;
+}
+.circle {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  box-shadow: 2px 3px 6px  yellow;
+  border-radius: 50%;
+}
+
+.circle:hover {
+  background-color: yellow;
+  box-shadow: 2px 3px 6px black;
+}
+fieldset {
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #d9eeed;
+}
+
+legend {
+  font-weight: bold;
+  color: black;
+  font-size: 33px;
+}
+label {
+  display: block;
+  margin-top: 10px;
+  color: black;
+  font-size: 27px;
+}
+
+.profilePicture {
+  display: block;
+  margin: 0 auto;
+  border: 2px solid black;
+  box-shadow: 0 4px 8px yellow;
+  border-radius: 6px;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+input,
+textarea {
+  width: calc(100% - 1px);
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+button {
+  display: block;
+  width: 40%;
+  padding: 8px;
+  background-color: #d9eeed;
+  border-radius: 5px;
+  box-shadow: 0px 0px 9px;
+  cursor: pointer;
+  border: none;
+  font-family: "Italianno", cursive;
+  font-size: 27px;
+  text-shadow: 0px 0px 8px;
+  margin-left: 180px;
+}
+
+button:hover {
+  box-shadow: 0px 0px 7px yellow;
+  border: none;
+  color: black;
+}
+#resumeOutput {
+  max-width: 600px;
+  margin: auto;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 8px 6px yellow;
+  padding: 20px;
+  border: 3px solid black;
+}
+
+#resumeOutput h2 {
+  color: black;
+}
